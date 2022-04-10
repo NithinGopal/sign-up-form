@@ -1,0 +1,103 @@
+body{
+    height: 100vh;
+    margin: 0; 
+    padding 0;
+   }
+main {
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    justify-content: space-evenly;
+}
+/* Main container */
+#main-container {
+    position: relative;
+    min-width: 55%;
+}
+.bg-img {
+    width: 100%;
+    height: 100vh;
+}
+.logo-heading {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    top: 25%;
+    width: 100%;
+    background-color: rgba(119, 118, 118, 0.24);
+}
+h1 {
+    color: antiquewhite;
+    font-family: montserrat;
+}
+.logo-img {
+    margin: 0 10px 0 0;
+}
+
+/* Side container */
+#side-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #191A19;
+    color: #D8E9A8;
+    font-family: montserrat;
+}
+.form-content {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
+    color: #4E9F3D;
+}
+.names, .email_number, .password {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+}
+.fname, .lname, .mailid, .pnum, .pwd, .cpwd {
+    margin-right: 50px;
+    line-height: 1.8;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+}
+input:hover{
+    border: 2px solid green;
+}
+
+input:invalid{
+    border: red;
+}
+
+h3 {
+    padding-left: 20px;
+    color: #D8E9A8;
+}
+
+/* Button */
+.btn {
+    height: 40px;
+    width: 150px;
+    background-color: #ec2c05;
+    padding: 5px;
+    color: #D8E9A8;
+    border: none;
+    border-radius: 5px;
+    font-family: montserrat;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: #f5340d;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: palevioletred;
+}
