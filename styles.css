@@ -13,6 +13,10 @@ main {
 #main-container {
     position: relative;
     min-width: 55%;
+    min-height: max-content;
+    background-image: url('images/main-img.png');
+    object-fit: cover;
+    background-repeat: no-repeat;
 }
 .bg-img {
     width: 100%;
